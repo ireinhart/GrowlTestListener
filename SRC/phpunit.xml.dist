@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true">
+    <listeners>
+        <listener class="PHPUnit_Extensions_TestListener_GrowlTestListener"
+              file="/Users/ir/NetBeansProjects/GrowlTestListener/SRC/GrowlTestListener.php">
+            <arguments>
+                <string>/Users/ir/NetBeansProjects/GrowlTestListener/SRC/pass.png</string>
+                <string>/Users/ir/NetBeansProjects/GrowlTestListener/SRC/pending.png</string>
+                <string>/Users/ir/NetBeansProjects/GrowlTestListener/SRC/fail.png</string>
+                <array>
+                    <element key="parameter">
+                        <string>-s</string>
+                    </element>
+                </array>
+            </arguments>
+        </listener>
+    </listeners>
+</phpunit>
