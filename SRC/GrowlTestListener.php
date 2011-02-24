@@ -3,6 +3,7 @@
 class PHPUnit_Extensions_TestListener_GrowlTestListener
 implements PHPUnit_Framework_TestListener
 {
+
     const TEST_RESULT_COLOR_RED = 'red';
     const TEST_RESULT_COLOR_YELLOW = 'yellow';
     const TEST_RESULT_COLOR_GREEN = 'green';
@@ -213,4 +214,5 @@ implements PHPUnit_Framework_TestListener
                (count($this->_incompletes) > 0 ||
                 count($this->_skips) > 0);
     }
+
 }

@@ -1,2 +1,3 @@
 .DS_Store
 SRC/phpunit.xml
+/nbproject/private/
